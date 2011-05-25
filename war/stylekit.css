@@ -1,0 +1,97 @@
+/*
+	Autor: Dominik Guzei
+	Project: StyleKit - Qualifikationsprojekt 1
+	Fachhochschule Salzburg
+	
+	This is the main css file for the StyleKit application
+*/
+
+iframe.gwt-WebView {
+	border: 0;
+}
+
+.gwt-HorizontalSplitPanel table.hsplitter, .gwt-VerticalSplitPanel div.vsplitter {
+	background:#E3E2E0;	
+}
+
+.CodeMirror-line-numbers {
+	background:#eee;
+}
+
+.gwt-navPanel {
+	background: url(images/stylekit_header_bg.jpg) repeat-x;
+	height: 53px;
+}
+
+.gwt-Tooltip {
+	background: #eee;
+	padding: 1em;
+	border: 1px solid #E3E2E0;
+}
+
+.stylekit-logo {
+	float:left;	
+}
+
+.stylekit-save {
+	margin: 11px 0 0 30px;
+}
+
+.stylekit-reload {
+	margin: 10px 0 0 10px;
+}
+
+.stylekit-autoreload {
+	margin: 7px 0 0 4px;
+}
+
+.stylekit-urlinput{
+	background: url(images/stylekit_input.jpg) no-repeat;
+	height: 42px;
+	border:none;
+	width: 409px;
+	padding: 8px 0 0 10px;
+	margin: 10px 0 0 30px;
+	font-size: 1em;
+	color: white;
+}
+
+.stylekit-load {
+	margin-top: 10px;	
+}
+
+.stylekit-firebug {
+	margin: 11px 0 0 30px;	
+}
+
+.stylekit-download {
+	margin: 11px 0 0 10px;	
+}
+
+.stylekit-logo, 
+.stylekit-save, 
+.stylekit-reload, 
+.stylekit-autoreload, 
+.stylekit-urlinput, 
+.stylekit-load,
+.stylekit-firebug,
+.stylekit-download {
+	display:block;
+	float:left;
+	outline:0;
+}
+
+.stylekit-save, 
+.stylekit-reload, 
+.stylekit-autoreload,  
+.stylekit-load,
+.stylekit-firebug,
+.stylekit-download {
+	cursor:pointer;
+}
+
+div.stylekit-reload-up-disabled, 
+div.stylekit-autoreload-up-disabled,  
+div.stylekit-download-up-disabled {
+	cursor:default;
+}

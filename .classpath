@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Applications/MAMP/htdocs/gwt/lib/CodeMirror.jar"/>
+	<classpathentry kind="lib" path="/Users/dominikguzei/Downloads/-- Software &amp;  Frameworks --/Web/Frameworks/gwt/gwt-log-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/MAMP/htdocs/gwt/lib/Tooltip.jar"/>
+	<classpathentry kind="lib" path="/Applications/MAMP/htdocs/gwt/lib/WebView.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><project><id>ogupokapo</id><url><![CDATA[http://gwt/StyleKit/war/Welcome.html]]></url><style>body {
+ font-family: "Lucida Grande", 
+    Arial, Verdana, sans-serif;
+ text-align:center; 
+}
+
+h1 {
+ font-size: 180%; 
+}
+
+h2 {
+ font-size: 150%; 
+}
+
+#branding {
+ width: 500px;
+ margin: 40px auto; 
+}
+
+#branding img {
+ margin-right: 25px; 
+}
+
+#teaser p{
+ text-align: justify;
+ line-height: 1.5em; 
+}
+
+#guideBox {
+ text-align: left;
+ width: 700px;
+ margin: 0 auto;
+}
+
+.guide {
+ float: left;
+ width: 200px;
+ margin-right: 50px; 
+ font-size: 0.8em;
+ line-height: 1.4em; 
+}
+
+.guide.last {
+  margin: 0;
+}
+
+</style></project>

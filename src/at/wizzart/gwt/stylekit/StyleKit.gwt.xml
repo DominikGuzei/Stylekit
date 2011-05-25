@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+	Autor: Dominik Guzei
+	Project: StyleKit - Qualifikationsprojekt 1
+	Fachhochschule Salzburg
+	
+	This file describes the resources that are needed
+	by the StyleKit application
+ -->
+
+<module rename-to='stylekit'>
+ 
+  <inherits name='com.google.gwt.user.User'/>
+  <!-- StyleKit uses XML as format to communicate with the server -->
+  <inherits name='com.google.gwt.xml.XML' />
+  <!-- StyleKit uses HTTP as protocol to communicate with the server -->
+  <inherits name="com.google.gwt.http.HTTP"/>
+  <!-- StyleKit uses CodeMirror for its editors -->
+  <inherits name="at.wizzart.gwt.widgets.CodeMirror"/>
+  <!-- StyleKit uses WebView for its live display of websites -->
+  <inherits name="at.wizzart.gwt.widgets.WebView"/>
+  <!-- StyleKit uses Tooltips for hints in the interface -->
+  <inherits name="at.wizzart.gwt.widgets.Tooltip"/>
+  <!-- StyleKit uses ClientBundle to merge all image resources into one request -->
+  <inherits name="com.google.gwt.resources.Resources" />
+  
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/>-->
+   <!-- For development a default of `DEBUG` is recommended -->
+   <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG" />
+   <set-property name="log_DivLogger" value="DISABLED" />
+   
+  <entry-point class='at.wizzart.gwt.stylekit.client.StyleKit'/>
+
+</module>

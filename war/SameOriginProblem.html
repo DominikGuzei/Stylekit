@@ -1,0 +1,51 @@
+<!--  
+	Autor: Dominik Guzei
+	Project: StyleKit - Qualifikationsprojekt 1
+	Fachhochschule Salzburg
+	
+	This is the page that gets displayed when the user clicked on a link
+	that was nod modified by the proxy script. This happens when this
+	link was inserted by dynamic javascript on this page.
+ -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Same Origin Problem</title>
+    <style type="text/css">
+	    body {
+	     font-family: "Lucida Grande",
+	        Arial, Verdana, sans-serif;
+	     text-align:center;
+	    }
+	    
+	    h1 {
+	     font-size: 180%;
+	    }
+	    
+	    h2 {
+	     font-size: 150%;
+	    }
+	    
+	    #content p {
+		 line-height: 1.5em;
+		}
+		img {
+		 margin-top: 40px;
+		}
+    </style>
+    </head>
+
+  <body>
+	<div id="content">
+    <img src="http://wizzart.at/stylekit/images/stylekit_logo.jpg"><h1>StyleKit Sandbox problem</h1>
+    <p>Ooops! You accidently left StyleKit's sandbox, we had to interrupt here <br />
+      and get you back in! ;-) If you want to follow the link you clicked please <br />
+      copy the link's URL into the Url-Bar at the top.
+    </p>
+  </div>
+	
+  </body>
+  <script id="webViewInitScript" type="text/javascript">(function(){window.frameElement._webViewInit()})();</script>
+</html>

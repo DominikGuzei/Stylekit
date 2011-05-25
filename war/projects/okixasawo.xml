@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><project><id>okixasawo</id><url><![CDATA[http://wizzart.at/category/portfolio/]]></url><style>body {
+ background:red !important; 
+ margin:20px !important;
+  border: 10px solid black;
+}
+
+ul#hauptnavigation a.mitSubmenu {
+ background: yellow;
+ font-size: 2em;  
+}
+</style></project>

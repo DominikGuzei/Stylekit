@@ -1,0 +1,149 @@
+<!--  
+	Autor: Dominik Guzei
+	Project: StyleKit - Qualifikationsprojekt 1
+	Fachhochschule Salzburg
+	
+	This is the welcome page that gets displayed when the user 
+	lands on the index page without any project id or history hash # 
+ -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>StyleKit - Realtime Cross-Browser Styling!</title>
+    <style id="gwt-webview-intern-styles" type="text/css">
+body {
+ font-family: "Lucida Grande", 
+    Arial, Verdana, sans-serif;
+ text-align:center; 
+}
+
+h1 { font-size: 180%; }
+
+h2 { font-size: 150%; }
+
+#branding {
+ width: 500px;
+ margin: 40px auto; 
+}
+
+#branding img {
+ margin-right: 25px; 
+}
+
+#teaser p{
+ text-align: justify;
+ line-height: 1.5em; 
+}
+
+#beta {
+ color: orange;
+}
+
+#guideBox {
+ text-align: left;
+ width: 700px;
+ margin: 0 auto;
+}
+
+.guide {
+ float: left;
+ width: 200px;
+ margin-right: 50px; 
+ font-size: 0.8em;
+ line-height: 1.4em; 
+}
+
+.guide.last {
+  margin: 0;
+}
+
+#impressum {
+  padding-top: 2em;
+  font-size: 0.7em;
+  text-align: center;
+  color: #777777;
+}
+    </style>
+    </head>
+  <body>
+	
+  <div id="branding">
+    <img src="http://wizzart.at/stylekit/images/stylekit_logo.jpg"><h1>Welcome to the Revolution!</h1>
+    <div id="teaser">
+      <p>The StyleKit project helps web designers and developers to 
+        rapidly prototype the styling of their cutting edge products 
+        and evaluate new designs for existing websites. </p>
+        <p><span id="beta">StyleKit is in Beta - please ask</span>
+	        <a class="stylekit-extern-link" target="_blank" href="http://wizzart.at/development/stylekit-realtime-cross-browser-styling/">questions and give feedback!</a>
+	        <br />Follow me on Twitter:
+	      	<a class="stylekit-extern-link" target="_blank" href="http://twitter.com/DominikGuzei">DominikGuzei</a> and receive news.        
+     	</p>
+    </div>
+  </div>
+<div id="guideBox">
+  <div class="guide">
+    <h2>Quick Start</h2>
+    <p>On the left side you see the 
+       Css-Panel which holds all the 
+       styles that get added to the
+       currently viewed website. You
+       can edit the rules in realtime
+       and you will see the changes
+       immediatly in the WebView.
+       To see how the styles affect
+       other sites simply click on
+       any link or enter the url directly
+       into the Url-Bar at the top. You
+       can also edit the HTML source of
+       any website in the panel below this
+       WebView. Drag the splitter vertically
+       to the top to reveil the code of the website.
+       </p>
+  </div>
+  <div class="guide">
+    <h2>Realtime Projects</h2>
+    <p>As web designer it is a tedious 
+       task to write css having no clue
+       how it will look like in the ever
+       growing and diversing browser
+       landscape. StyleKit helps you out
+       with realtime cross-browser projects
+       based on URLs. Simply click the 'save'
+       icon in the menu bar and you are directed
+       to your newly created project url. Copy and Paste
+       it in any other browser and enable 'realtime
+      auto reloading' in the menu. The changes you make
+      in one browser are now visible in the other browsers.
+       </p>
+  </div>
+  <div class="guide last">
+    <h2>Dev-Candy</h2>
+    <p>The two icons to the right
+       of the Url-Bar provide access to
+       utility features like the
+       well known Firebug-Lite, a debugging
+       tool that helps figuring out 
+       which rules affect the html markup
+       and override them in the Css-Panel. You
+       will find the small firebug icon in the right
+       bottom corner of the WebView.
+       This enables you to combine well known
+       features with the new possibilities
+       provided by StyleKit. The last Button gives
+       you the chance to download your current project's
+       css as a file.
+       </p>
+  </div>
+  <div id="impressum">
+    StyleKit is proudly presented by Dominik Guzei<br />
+    For feedback and questions please visit
+    <a target="_blank" href="http://wizzart.at/development/stylekit-realtime-cross-browser-styling/">StyleKit Discussion</a>
+  </div>
+</div>
+  
+
+​
+  </body>
+</html>
